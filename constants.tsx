@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const APP_NAME = "Aplikasi Premium by XTE";
+export const APP_NAME = "XTE ID";
 export const DOMAIN = "app.xte.web.id";
 export const PAYMENT_BASE_URL = "https://blackhat.web.id";
 export const PAYMENT_API_KEY = "51f9cc59799beaa9afc37defb56889e113c706f85e8b0d5c66e8eba5f05c996d";
