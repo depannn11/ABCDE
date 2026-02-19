@@ -1,0 +1,7 @@
+{
+  "name": "Aplikasi Premium by XTE",
+  "description": "Platform profesional dan minimalis untuk pembelian akun digital premium secara otomatis dengan sistem pembayaran QRIS terintegrasi.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
