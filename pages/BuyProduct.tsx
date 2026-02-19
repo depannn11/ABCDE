@@ -99,7 +99,7 @@ const BuyProduct: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `XTE_INVOICE_${order?.order_id}.txt`;
+    link.download = `invoiceXTE_${order?.order_id}.txt`;
     link.click();
     URL.revokeObjectURL(url);
   };
@@ -144,13 +144,13 @@ const BuyProduct: React.FC = () => {
                       </div>
                       <div className="mt-6 px-2 flex justify-between items-center">
                          <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest">Tersedia: {stock} Akun</span>
-                         <span className="text-[10px] font-black text-zinc-900 uppercase tracking-widest bg-zinc-100 px-3 py-1 rounded-full">Rp {product.price.toLocaleString('id-ID')} / unit</span>
+                         <span className="text-[10px] font-black text-zinc-900 uppercase tracking-widest bg-zinc-100 px-3 py-1 rounded-full">Rp {product.price.toLocaleString('id-ID')} / Akun</span>
                       </div>
                    </div>
 
                    <div className="p-10 bg-zinc-900 rounded-[40px] text-white shadow-3xl shadow-zinc-200 relative overflow-hidden group">
                       <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full -mr-16 -mt-16 group-hover:scale-150 transition-transform duration-1000"></div>
-                      <span className="text-[10px] font-black uppercase tracking-[0.3em] opacity-50 block mb-2 relative z-10">Total Investasi</span>
+                      <span className="text-[10px] font-black uppercase tracking-[0.3em] opacity-50 block mb-2 relative z-10">Total Pembayaran</span>
                       <div className="text-5xl font-black relative z-10">Rp {(product.price * quantity).toLocaleString('id-ID')}</div>
                    </div>
                 </div>
@@ -237,7 +237,7 @@ const BuyProduct: React.FC = () => {
                       onClick={handleDownloadTxt} 
                       className="w-full py-6 bg-zinc-900 text-white rounded-[24px] font-black text-[10px] uppercase tracking-[0.3em] shadow-2xl shadow-zinc-100 hover:bg-zinc-800 transition-all flex items-center justify-center gap-4 mt-8"
                     >
-                        <i className="fas fa-file-download text-sm"></i> Download All Accounts (.TXT)
+                        <i className="fas fa-file-download text-sm"></i> Download All Accounts
                     </button>
                  )}
               </div>
