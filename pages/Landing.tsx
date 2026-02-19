@@ -42,11 +42,11 @@ const Landing: React.FC = () => {
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-50 border border-slate-100 text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 mb-8 animate-in fade-in slide-in-from-top-4 duration-1000">
             <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
-            Automated Delivery System
+            Online
           </div>
           <h1 className="text-5xl md:text-7xl font-black text-zinc-900 tracking-tighter mb-8 leading-[0.9] animate-in fade-in slide-in-from-bottom-4 duration-700">
-            Dapatkan Akses <br />
-            <span className="text-slate-300">Premium Sekarang.</span>
+            App Premium<br />
+            <span className="text-slate-300">Termurah!!.</span>
           </h1>
           <p className="text-base md:text-lg text-slate-500 max-w-xl mx-auto mb-12 leading-relaxed font-medium animate-in fade-in slide-in-from-bottom-6 duration-1000">
             Platform terpercaya untuk beli akun digital. Bayar via QRIS, akun langsung muncul di layar Anda secara instan.
